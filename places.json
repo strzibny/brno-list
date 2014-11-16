@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Bar, který neexistuje",
+        "url": "http://www.barkteryneexistuje.cz/",
+        "contactNumber": "+420 734 878 602",
+        "address": "Dvořáková 1",
+        "openingHours": {
+            "mon": "17:00-02:00",
+            "tue": "17:00-02:00",
+            "wed": "17:00-03:00",
+            "thu": "17:00-03:00",
+            "fri": "17:00-04:00",
+            "sat": "17:00-04:00",
+            "sun": "17:00-02:00"
+        },
+        "tags": "bar classic"
+    },
+    {
+        "name": "Pablo Escobar",
+        "url": "http://www.pabloescobar.cz/",
+        "contactNumber": "+420 728 622 222",
+        "address": "Minská 222/88",
+        "openingHours": {
+            "mon": "17:00-02:00",
+            "tue": "17:00-02:00",
+            "wed": "17:00-02:00",
+            "thu": "17:00-02:00",
+            "fri": "17:00-02:00",
+            "sat": "17:00-02:00",
+            "sun": "17:00-00:00"
+        },
+        "tags": "bar, classic"
+    },
+    {
+        "name": "Runway",
+        "url": "http://www.restaurant-pavillon.cz/runway.php#runway-bar",
+        "contactNumber": "+420 541 213 497",
+        "address": "Jezuitská 6",
+        "openingHours": {
+            "tue": "18:00-01:00",
+            "wed": "18:00-01:00",
+            "thu": "18:00-01:00",
+            "fri": "18:00-02:00",
+            "sat": "18:00-02:00"
+        },
+        "tags": "bar, modern"
+    },
+    {
+        "name": "Super panda circus",
+        "url": "http://www.superpandacircus.cz/",
+        "contactNumber": "+420 605 516 112",
+        "address": "Husova 257/4",
+        "openingHours": {
+            "mon": "18:00-02:00",
+            "tue": "18:00-02:00",
+            "wed": "18:00-02:00",
+            "thu": "18:00-02:00",
+            "fri": "18:00-02:00",
+            "sat": "18:00-02:00",
+            "sun": "18:00-02:00"
+        },
+        "tags": "bar, asian"
+    }
+]
