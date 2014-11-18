@@ -1,5 +1,21 @@
 [
     {
+        "name": "Avia café",
+        "url": "http://www.aviacafe.cz/",
+        "contactNumber": "+420 739 822 215",
+        "address": "Botanická 1",
+        "openingHours": {
+            "mon": "12:00-22:00",
+            "tue": "12:00-22:00",
+            "wed": "12:00-22:00",
+            "thu": "12:00-22:00",
+            "fri": "12:00-22:00",
+            "sat": "12:00-22:00",
+            "sun": "12:00-22:00"
+        },
+        "tags": "restaurant, mediterranean, fish, pasta"
+    },
+    {
         "name": "Bar, který neexistuje",
         "url": "http://www.barkteryneexistuje.cz/",
         "contactNumber": "+420 734 878 602",
@@ -13,7 +29,70 @@
             "sat": "17:00-04:00",
             "sun": "17:00-02:00"
         },
-        "tags": "bar classic"
+        "tags": "bar, classic, burger"
+    },
+    {
+        "name": "Cattani",
+        "url": "http://www.cattani.cz/",
+        "contactNumber": "+420 776 611 883 ",
+        "address": "Veveří 6",
+        "openingHours": {
+            "mon": "09:00-22:00",
+            "tue": "09:00-22:00",
+            "wed": "09:00-22:00",
+            "thu": "09:00-22:00",
+            "fri": "09:00-22:00",
+            "sat": "09:00-22:00",
+            "sun": "09:00-22:00"
+        },
+        "tags": "bistro, pasta"
+    },
+    {
+        "name": "Kafec",
+        "url": "http://www.kafec.cz/",
+        "contactNumber": "+420 773 699 929",
+        "address": "Veveří 10",
+        "openingHours": {
+            "mon": "08:00-20:00",
+            "tue": "08:00-20:00",
+            "wed": "08:00-20:00",
+            "thu": "08:00-20:00",
+            "fri": "08:00-20:00",
+            "sat": "09:00-20:00",
+            "sun": "09:00-20:00"
+        },
+        "tags": "coffee, breakfast"
+    },
+    {
+        "name": "Koishi",
+        "url": "http://www.koishi.cz/",
+        "contactNumber": "+420 777 564 744",
+        "address": "Údolní 11",
+        "openingHours": {
+            "mon": "11:00-22:00",
+            "tue": "11:00-23:00",
+            "wed": "11:00-23:00",
+            "thu": "11:00-23:00",
+            "fri": "11:00-23:00",
+            "sat": "11:00-23:00",
+            "sun": "11:00-22:00"
+        },
+        "tags": "restaurant, fish, sushi, luxury"
+    },
+    {
+        "name": "Kupé",
+        "url": "http://www.kupeorient.cz/",
+        "contactNumber": "+420 515 544 362",
+        "address": "Veveří 34",
+        "openingHours": {
+            "mon": "11:00-22:00",
+            "tue": "11:00-22:00",
+            "wed": "11:00-22:00",
+            "thu": "11:00-22:00",
+            "fri": "11:00-22:00",
+            "sat": "12:00-22:00"
+        },
+        "tags": "restaurant, arab, vegetarian"
     },
     {
         "name": "Pablo Escobar",
@@ -29,7 +108,7 @@
             "sat": "17:00-02:00",
             "sun": "17:00-00:00"
         },
-        "tags": "bar, classic"
+        "tags": "bar, classic, burger"
     },
     {
         "name": "Runway",
@@ -60,5 +139,21 @@
             "sun": "18:00-02:00"
         },
         "tags": "bar, asian"
+    },
+    {
+        "name": "Sushi Ya",
+        "url": "http://www.sushiya.cz/",
+        "contactNumber": "+420 739 094 455",
+        "address": "Moravské nám. 629/4",
+        "openingHours": {
+            "mon": "11:00-23:00",
+            "tue": "11:00-23:00",
+            "wed": "11:00-23:00",
+            "thu": "11:00-23:00",
+            "fri": "11:00-23:00",
+            "sat": "11:00-23:00",
+            "sun": "11:00-23:00"
+        },
+        "tags": "restaurant, mediterranean, pasta"
     }
 ]
