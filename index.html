@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brno ♥ Places</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
     <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -17,13 +18,44 @@
     <script id="place-template" type="text/x-handlebars-template">
         <div class="row">
             {{#each this}}
-            <div class="medium-3 columns place">
+            <div class="small-12 medium-6 large-4 columns place {{#if @last}}end{{/if}}">
                 <h3><a href="#">{{name}}</a></h3>
-                <div>
+                <div class="tags">
                     {{tags}}
                 </div>
+                {{> opening-hours}}
             </div>
             {{/each}}
+        </div>
+    </script>
+
+    <script id="opening-hours-partial" type="text/x-handlebars-template">
+        <div class="row opening-hours">
+            <div class="small-12 columns">
+                <table>
+                    <tr>
+                        <td>mon:</td><td class="hhmm">{{openingHours.mon}}</td>
+                    </tr>
+                    <tr>
+                        <td>tue:</td><td class="hhmm">{{openingHours.tue}}</td>
+                    </tr>
+                    <tr>
+                        <td>wed:</td><td class="hhmm">{{openingHours.wed}}</td>
+                    </tr>
+                    <tr>
+                        <td>thu:</td><td class="hhmm">{{openingHours.thu}}</td>
+                    </tr>
+                    <tr>
+                        <td>fri:</td><td class="hhmm">{{openingHours.fri}}</td>
+                    </tr>
+                    <tr>
+                        <td>sat:</td><td class="hhmm">{{openingHours.sat}}</td>
+                    </tr>
+                    <tr>
+                        <td>sun:</td><td class="hhmm">{{openingHours.sun}}</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </script>
 
