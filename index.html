@@ -20,6 +20,7 @@
             {{#each this}}
             <div class="small-12 medium-6 large-4 columns place {{#if @last}}end{{/if}}">
                 <h3><a href="#">{{name}}</a></h3>
+                {{isOpenNow openingHours}}
                 <div class="tags">
                     {{tags}}
                 </div>
@@ -27,6 +28,14 @@
             </div>
             {{/each}}
         </div>
+    </script>
+
+    <script id="place-info-open" type="text/x-app-template">
+        <div class="open">open</div>
+    </script>
+
+    <script id="place-info-closed" type="text/x-app-template">
+        <div class="closed">closed</div>
     </script>
 
     <script id="opening-hours-partial" type="text/x-handlebars-template">
@@ -66,6 +75,7 @@
       $(document).foundation();
     </script>
     <script src="bower_components/moment/moment.js"></script>
+    <script src="js/openingHours.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

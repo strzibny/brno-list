@@ -1,2 +1,5 @@
 .tags { padding-bottom: 1em; }
 .opening-hours td.hhmm { width: 100%; text-align: right; }
+.open, .closed { padding: 4px; display: inline-block; color: white; border-radius: 10px; }
+.open { background-color: green; }
+.closed { background-color: red; }
