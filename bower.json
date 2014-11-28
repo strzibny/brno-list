@@ -1,0 +1,23 @@
+{
+  "name": "brno-list",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stribny/brno-list",
+  "authors": [
+    "Petr Stribny <petrstribny@gmail.com>"
+  ],
+  "description": "List of go-out places",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.4.7",
+    "handlebars": "~2.0.0",
+    "moment": "~2.8.4"
+  }
+}
