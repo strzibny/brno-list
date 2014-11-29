@@ -1,5 +1,7 @@
-.tags { padding-bottom: 1em; }
+h3 a { color: #7D2B00; height: 50px; display: block; padding-top: 10px; }
+
+.tags { padding-bottom: 1em; padding-top: 10px; height: 60px; overflow: hidden; margin-bottom: 10px; }
 .opening-hours td.hhmm { width: 100%; text-align: right; }
-.open, .closed { padding: 4px; display: inline-block; color: white; border-radius: 10px; }
+.open, .closed { padding: 4px; display: inline-block; color: white; border-radius: 10px; float: right; }
 .open { background-color: green; }
 .closed { background-color: red; }
