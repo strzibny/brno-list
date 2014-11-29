@@ -30,6 +30,10 @@ function isOpenAt(openingHours, time) {
         open = true;
     }
 
+    if (current >= from && from > to) {
+        open = true;
+    }
+
     // check the previous day
     var prevDay = time.getDay() - 1,
         prevDayFix = (prevDay === -1) ? 6 : prevDay,

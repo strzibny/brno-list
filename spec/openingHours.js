@@ -5,14 +5,18 @@ describe("Opening hours", function() {
         "wed": "08:00-20:00",
         "thu": "08:00-20:00",
         "fri": "08:00-20:00",
-        "sat": "08:00-20:00"
+        "sat": "08:00-03:00"
     };
 
     it("When time is set between opening and closing time, venue is open.", function() {
         var tuesdayInTheAfternoon = new Date(2014, 10, 18, 15, 15);
-        var isOpen = isOpenAt(openingHours, tuesdayInTheAfternoon);
+        var isOpenTuesdayInTheAfternoon = isOpenAt(openingHours, tuesdayInTheAfternoon);
 
-        expect(isOpen).toBe(true);
+        var mondayEvening = new Date(2014, 10, 29, 21, 00);
+        var isOpenMondayEvening = isOpenAt(openingHours, mondayEvening);
+
+        expect(isOpenTuesdayInTheAfternoon).toBe(true);
+        expect(isOpenMondayEvening).toBe(true);
     });
 
     it("When opening hours are not defined for a particular day, venue is closed.", function() {
