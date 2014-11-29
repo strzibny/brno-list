@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="name.stribny.brno" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BrnoList</name>
+    <description>
+        Brno list is an opinionated list of good go-out places in Brno, Czech republic.
+    </description>
+    <author email="petr@stribny.name" href="http://stribny.name">
+        Petr Stribny
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
