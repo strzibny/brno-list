@@ -42,4 +42,8 @@ cordova platforms add android
 cordova build
 ```
 
+## Run tests
+
+To run tests, open `SpecRunner.html` in a browser.
+
 Author: [Petr Stříbný](http://stribny.name)
