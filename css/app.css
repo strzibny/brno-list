@@ -1,9 +1,14 @@
-body { margin-top: 20px; }
+body { padding-top: 20px; }
 
-h3 a, h3 a:hover { color: #7D2B00; height: 50px; display: block; padding-top: 10px; }
+h1 { color: #7D2B00; padding-left: 15px; background: #FFFFCC; margin-top: 0; padding-top: 15px; padding-bottom: 8px; }
+h3 a, h3 a:hover { color: #7D2B00; height: 50px; display: block; padding-top: 10px;  }
 
-.tags { padding-bottom: 1em; padding-top: 10px; height: 60px; overflow: hidden; margin-bottom: 10px; }
+#search { display: block; margin-top: 10px; }
+
+.tags { padding-bottom: 1em; padding-top: 10px; height: 60px; overflow: hidden; margin-bottom: 10px; 
+  padding-right: 12px; }
 .opening-hours td.hhmm { width: 100%; text-align: right; }
-.open, .closed { padding: 4px; display: inline-block; color: white; border-radius: 8px; float: right; }
+.open, .closed { padding: 4px; padding-left: 6px; padding-right: 6px; display: inline-block; 
+  color: white; border-radius: 8px; float: right; }
 .open { background-color: green; }
 .closed { background-color: red; }
