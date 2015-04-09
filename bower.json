@@ -5,7 +5,7 @@
   "authors": [
     "Petr Stribny <petrstribny@gmail.com>"
   ],
-  "description": "List of go-out places",
+  "description": "List of go-out places in Brno",
   "license": "MIT",
   "private": true,
   "ignore": [
