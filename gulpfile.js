@@ -13,7 +13,9 @@ var paths = {
         'bower_components/foundation/**/*.css', '!bower_components/foundation/scss/**'],
     vendor_handlebars: ['bower_components/handlebars/handlebars.min.js'],
     vendor_modernizr: ['bower_components/modernizr/modernizr.js'],
-    vendor_moment: ['bower_components/moment/moment.js']
+    vendor_moment: ['bower_components/moment/moment.js'],
+    vendor_underscore: ['bower_components/underscore/underscore.js'],
+    vendor_backbone: ['bower_components/backbone/backbone.js']
 };
 
 var appPaths = {
@@ -27,6 +29,8 @@ var appPaths = {
     vendor_handlebars: appDir + 'bower_components/handlebars',
     vendor_modernizr: appDir + 'bower_components/modernizr',
     vendor_moment: appDir + 'bower_components/moment',
+    vendor_underscore: appDir + 'bower_components/underscore',
+    vendor_backbone: appDir + 'bower_components/backbone'
 }
 
 gulp.task('default', function(){
@@ -66,7 +70,15 @@ gulp.task('default', function(){
     console.log("Copying Modernizr...");
     gulp.src(paths.vendor_modernizr).pipe(gulp.dest(appPaths.vendor_modernizr));
 
-    // copy Modernizr
+    // copy Moment
     console.log("Copying Moment...");
     gulp.src(paths.vendor_moment).pipe(gulp.dest(appPaths.vendor_moment));
+    
+    // copy Underscore
+    console.log("Copying Underscore...");
+    gulp.src(paths.vendor_underscore).pipe(gulp.dest(appPaths.vendor_underscore));
+    
+    // copy Backbone
+    console.log("Copying Backbone...");
+    gulp.src(paths.vendor_backbone).pipe(gulp.dest(appPaths.vendor_backbone));
 });
