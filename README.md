@@ -6,6 +6,7 @@ Built with:
 - [Bower](http://bower.io/)
 - [Gulp](http://gulpjs.com/)
 - [Apache Cordova](https://cordova.apache.org/)
+- [Backbone.js](http://backbonejs.org/)
 - [Foundation](http://foundation.zurb.com/)
 - [Handlebars](http://handlebarsjs.com/)
 - [Jasmine](http://jasmine.github.io/)
