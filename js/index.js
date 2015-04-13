@@ -1,5 +1,7 @@
 var indexTemplate,
     compileIndexTemplate,
+    listTemplate,
+    compileListTemplate,
     data,
     filteredData;
 
@@ -15,26 +17,31 @@ function prepareIndex() {
     
     Handlebars.registerPartial("opening-hours", $("#opening-hours-partial").html());
     
-    indexTemplate = $("#place-template").html();  
+    indexTemplate = $("#index-template").html();  
     compileIndexTemplate = Handlebars.compile(indexTemplate);  
+    
+    listTemplate = $("#list-template").html();
+    compileListTemplate = Handlebars.compile(listTemplate);
     
     // load places from JSON file and put them in the page
     $.getJSON("data/places.json", function(receivedData) {
         data = filteredData = receivedData;
         renderIndex();
     });    
-    
 }    
 
-// filters list based on search term
-$("#search").on("input", function() {
-    filteredData = $.grep(data, function(element, index) {
-        return element.name.toLowerCase().indexOf($("#search").val().toLowerCase()) >= 0;
+function renderIndex() {
+    $("#page-placeholder").html(compileIndexTemplate());
+    $("#search").on("input", function() {
+        filteredData = $.grep(data, function(element, index) {
+            return element.name.toLowerCase().indexOf($("#search").val().toLowerCase()) >= 0;
+        });
+        renderList();
     });
-    renderIndex();
-});
+    renderList();
+}
 
 // re-renders list of places
-function renderIndex() {
-    $("#places-placeholder").html(compileIndexTemplate(filteredData));
+function renderList() {
+    $("#list-placeholder").html(compileListTemplate(filteredData));
 }

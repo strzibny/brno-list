@@ -11,10 +11,15 @@
         
         routes: {
             "": "index",
+            "detail/:id": "detail"
         },
         
         index: function() {
             prepareIndex();
+        },
+        
+        detail: function(id) {
+            prepareDetail(id);
         }
     });
     

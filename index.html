@@ -14,16 +14,24 @@
         <h1>Brno List</h1>
       </div>
     </div>
-
-    <div class="row">
-        <div class="large-12 columns">
-            <input id="search" type="text" placeholder="search" />
+    
+    <div id="page-placeholder"></div>
+    
+    <script id="index-template" type="text/x-handlebars-template">
+        <div class="row">
+            <div class="large-12 columns">
+                <input id="search" type="text" placeholder="search" />
+            </div>
         </div>
-    </div>
+        
+        <div id="list-placeholder"></div>
+    </script>
     
-    <div id="places-placeholder"></div>
+    <script id="detail-template" type="text/x-handlebars-template">
+        <h2>Detail</h2>
+    </script>
     
-    <script id="place-template" type="text/x-handlebars-template">
+    <script id="list-template" type="text/x-handlebars-template">
         <div class="row">
             {{#each this}}
             <div class="small-12 medium-6 large-4 columns place {{#if @last}}end{{/if}}">
@@ -37,7 +45,7 @@
             {{/each}}
         </div>
     </script>
-
+    
     <script id="place-info-open" type="text/x-app-template">
         <div class="open">open</div>
     </script>
@@ -87,6 +95,7 @@
     <script src="bower_components/backbone/backbone.js"></script>
     <script src="js/openingHours.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/detail.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
