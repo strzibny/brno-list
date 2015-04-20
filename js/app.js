@@ -18,8 +18,8 @@
             prepareIndex();
         },
         
-        detail: function(id) {
-            prepareDetail(id);
+        detail: function(slug) {
+            prepareDetail(slug);
         }
     });
     
