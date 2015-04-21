@@ -1,7 +1,3 @@
-function prepareDetail(slug) {
-    renderDetail(slug);
-}
-
 function renderDetail(slug) {    
     var venues = $.grep(Data.venues, function(element, index) {
         if (element.slug) {

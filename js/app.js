@@ -1,8 +1,5 @@
 (function() {
     window.App = {
-        Models: {},
-        Collections: {},
-        Views: {},
         Router: {}
     };
     
@@ -15,11 +12,11 @@
         },
         
         index: function() {
-            prepareIndex();
+            renderIndex();
         },
         
         detail: function(slug) {
-            prepareDetail(slug);
+            renderDetail(slug);
         }
     });
     
