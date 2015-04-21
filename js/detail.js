@@ -1,21 +1,6 @@
-var detailTemplate,
-    compileDetailTemplate,
-    data;
+var data;
 
 function prepareDetail(slug) {
-    
-    // register template helpers
-    Handlebars.registerHelper("isOpenNow", function(openingHours) {
-        var openTemplate = new Handlebars.SafeString($("#place-info-open").html());
-        var closedTemplate = new Handlebars.SafeString($("#place-info-closed").html());
-        
-        return isOpenNow(openingHours) ? openTemplate : closedTemplate;
-    });
-    
-    Handlebars.registerPartial("opening-hours", $("#opening-hours-partial").html());
-    
-    detailTemplate = $("#detail-template").html();  
-    compileDetailTemplate = Handlebars.compile(detailTemplate);  
     
     // load places from JSON file
     $.getJSON("data/places.json", function(receivedData) {
@@ -33,5 +18,5 @@ function renderDetail(slug) {
         return false;
     });
     
-    $("#page-placeholder").html(compileDetailTemplate(venues[0]));
+    $("#page-placeholder").html(Templates.compileDetailTemplate(venues[0]));
 }
