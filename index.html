@@ -30,7 +30,19 @@
     <script id="detail-template" type="text/x-handlebars-template">
         <div class="row">
             <div class="large-12 columns">
+                <p>
+                    <a href="#/">⇐ back</a>
+                </p>
                 <h2>{{name}}</h2>
+                {{isOpenNow openingHours}}
+                <div class="tags">
+                    {{tags}}
+                </div>
+                <div>
+                    <p><a href="{{url}}">www</a> &nbsp; {{contactNumber}}</p>
+                    <p>{{address}}</p>
+                </div>
+                {{> opening-hours}}
             </div>
         </div>
     </script>

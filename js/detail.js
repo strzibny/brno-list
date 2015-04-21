@@ -3,6 +3,17 @@ var detailTemplate,
     data;
 
 function prepareDetail(slug) {
+    
+    // register template helpers
+    Handlebars.registerHelper("isOpenNow", function(openingHours) {
+        var openTemplate = new Handlebars.SafeString($("#place-info-open").html());
+        var closedTemplate = new Handlebars.SafeString($("#place-info-closed").html());
+        
+        return isOpenNow(openingHours) ? openTemplate : closedTemplate;
+    });
+    
+    Handlebars.registerPartial("opening-hours", $("#opening-hours-partial").html());
+    
     detailTemplate = $("#detail-template").html();  
     compileDetailTemplate = Handlebars.compile(detailTemplate);  
     
