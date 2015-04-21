@@ -51,7 +51,7 @@
         <div class="row">
             {{#each this}}
             <div class="small-12 medium-6 large-4 columns place {{#if @last}}end{{/if}}">
-                <h3><a href="#">{{name}}</a></h3>
+                <h3><a href="#/detail/{{slug}}">{{name}}</a></h3>
                 {{isOpenNow openingHours}}
                 <div class="tags">
                     {{tags}}
