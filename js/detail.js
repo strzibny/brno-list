@@ -1,16 +1,9 @@
-var data;
-
 function prepareDetail(slug) {
-    
-    // load places from JSON file
-    $.getJSON("data/places.json", function(receivedData) {
-        data = receivedData;
-        renderDetail(slug);
-    });
+    renderDetail(slug);
 }
 
 function renderDetail(slug) {    
-    var venues = $.grep(data, function(element, index) {
+    var venues = $.grep(Data.venues, function(element, index) {
         if (element.slug) {
             return element.slug.toLowerCase() === slug;
         }
