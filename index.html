@@ -49,14 +49,14 @@
     
     <script id="list-template" type="text/x-handlebars-template">
         <div class="row">
-            {{#each this}}
+            {{#each this.venues}}
             <div class="small-12 medium-6 large-4 columns place {{#if @last}}end{{/if}}">
                 <h3><a href="#/detail/{{slug}}">{{name}}</a></h3>
                 {{isOpenNow openingHours}}
                 <div class="tags">
                     {{tags}}
                 </div>
-                {{> opening-hours}}
+                {{openingHoursToday openingHours}}
             </div>
             {{/each}}
         </div>
@@ -94,6 +94,18 @@
                     </tr>
                     <tr>
                         <td>sun:</td><td class="hhmm">{{openingHours.sun}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </script>
+
+    <script id="opening-hours-today" type="text/x-handlebars-template">
+        <div class="row opening-hours">
+            <div class="small-12 columns">
+                <table>
+                    <tr>
+                        <td>{{today}}:</td><td class="hhmm">{{openingHours}}</td>
                     </tr>
                 </table>
             </div>

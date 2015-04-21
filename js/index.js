@@ -3,7 +3,8 @@ var indexTemplate,
     listTemplate,
     compileListTemplate,
     data,
-    filteredData;
+    filteredData
+    context = {};
 
 function prepareIndex() {
     
@@ -13,6 +14,16 @@ function prepareIndex() {
         var closedTemplate = new Handlebars.SafeString($("#place-info-closed").html());
         
         return isOpenNow(openingHours) ? openTemplate : closedTemplate;
+    });
+    
+    Handlebars.registerHelper("openingHoursToday", function(openingHours) {
+        var openingHoursDayTemplate = Handlebars.compile($("#opening-hours-today").html());
+        
+        var context = {};
+        context.today = getShortDayNameByOrder(new Date().getDay());;
+        context.openingHours = openingHours[context.today];
+        
+        return new Handlebars.SafeString(openingHoursDayTemplate(context));
     });
     
     Handlebars.registerPartial("opening-hours", $("#opening-hours-partial").html());
@@ -43,5 +54,6 @@ function renderIndex() {
 
 // re-renders list of places
 function renderList() {
-    $("#list-placeholder").html(compileListTemplate(filteredData));
+    context.venues = filteredData;
+    $("#list-placeholder").html(compileListTemplate(context));
 }
