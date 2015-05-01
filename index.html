@@ -6,18 +6,20 @@
     <title>Brno List</title>
     <link rel="stylesheet" href="bower_components/foundation/css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Brno List</h1>
-      </div>
-    </div>
     
     <div id="page-placeholder"></div>
     
     <script id="index-template" type="text/x-handlebars-template">
+        <div class="row">
+          <div class="large-12 columns">
+            <h1>BRNO LIST</h1>
+          </div>
+        </div>
+    
         <div class="row">
             <div class="large-12 columns">
                 <input id="search" type="text" placeholder="search" />
@@ -29,10 +31,13 @@
     
     <script id="detail-template" type="text/x-handlebars-template">
         <div class="row">
+          <div class="large-12 columns">
+            <h1><a href="#/">< BRNO LIST</a></h1>
+          </div>
+        </div>
+    
+        <div class="row">
             <div class="large-12 columns">
-                <p>
-                    <a href="#/">⇐ back</a>
-                </p>
                 <h2>{{name}}</h2>
                 {{isOpenNow openingHours}}
                 <div class="tags">
