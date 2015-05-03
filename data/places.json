@@ -68,6 +68,22 @@
         "tags": "bistro, pasta"
     },
     {
+        "name": "Don Pintxos",
+        "slug": "don-pintxos",
+        "url": "http://donpintxos.cz",
+        "contactNumber": "+420 774 770 254",
+        "address": "Dominikánské náměstí 3",
+        "openingHours": {
+            "mon": "16:00-01:00",
+            "tue": "16:00-01:00",
+            "wed": "16:00-01:00",
+            "thu": "16:00-01:00",
+            "fri": "16:00-01:00",
+            "sat": "16:00-01:00"
+        },
+        "tags": "bar, spanish, basque"
+    },
+    {
         "name": "Everest",
         "slug": "everest",
         "url": "http://www.everestbrno.cz/",
