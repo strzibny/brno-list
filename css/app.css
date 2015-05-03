@@ -2,7 +2,7 @@ body { font-family: 'Open Sans', sans-serif; }
 
 h1,h2, h3 { font-family: 'Open Sans', sans-serif; }
 
-h1 { color: white; padding-left: 15px; background: #0099CC; margin-top: 0; padding-top: 15px; padding-bottom: 8px; border-bottom: 4px solid #000099; }
+h1 { color: white; padding-left: 15px; background: #0099CC; margin-top: 0; padding-top: 15px; padding-bottom: 8px; border-bottom: 4px solid #006699; }
 h1 a, h1 a:hover { color: white; } 
 h3 a, h3 a:hover { color: #0099CC; height: 50px; display: block; padding-top: 10px;  }
 
@@ -13,5 +13,5 @@ h3 a, h3 a:hover { color: #0099CC; height: 50px; display: block; padding-top: 10
 .opening-hours td.hhmm { width: 100%; text-align: right; }
 .open, .closed { padding: 4px; padding-left: 6px; padding-right: 6px; display: inline-block; 
   color: white; float: right; }
-.open { width: 70px; background-color: #339933; border-right: 4px solid #006600; border-bottom: 4px solid #006600; }
-.closed { width: 70px; background-color: red; border-right: 4px solid #990000; border-bottom: 4px solid #990000; }
+.open { width: 70px; background-color: #339933; border-right: 3px solid #006600; border-bottom: 3px solid #006600; }
+.closed { width: 70px; background-color: red; border-right: 3px solid #990000; border-bottom: 3px solid #990000; }
