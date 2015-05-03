@@ -2,9 +2,11 @@ var context = {};
 
 function renderIndex() {
     $("#page-placeholder").html(Templates.compileIndexTemplate());
+    $("#search").val(Data.searchTerm);
     $("#search").on("input", function() {
+        Data.searchTerm = $("#search").val();
         Data.filteredVenues = $.grep(Data.venues, function(element, index) {
-            return element.name.toLowerCase().indexOf($("#search").val().toLowerCase()) >= 0;
+            return element.name.toLowerCase().indexOf(Data.searchTerm.toLowerCase()) >= 0;
         });
         renderList();
     });
