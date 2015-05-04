@@ -115,7 +115,40 @@
             "sat": "08:00-22:00",
             "sun": "08:00-22:00"
         },
-        "tags": "bistro, burger"
+        "tags": "bistro, burger, breakfast"
+    },
+    {
+        "name": "La Bouchée",
+        "slug": "la-bouchee",
+        "url": "http://www.labouchee.cz/",
+        "contactNumber": "+420 542 212 560",
+        "address": "Údolní 33",
+        "openingHours": {
+            "mon": "11:00-24:00",
+            "tue": "11:00-24:00",
+            "wed": "11:00-24:00",
+            "thu": "11:00-24:00",
+            "fri": "11:00-24:00",
+            "sat": "11:00-24:00",
+            "sun": "11:00-22:00"
+        },
+        "tags": "restaurant, french"
+    },
+    {
+        "name": "laFUFU",
+        "slug": "la-fufu",
+        "url": "http://www.lafufu.cz/",
+        "contactNumber": "+420 608 900 007",
+        "address": "Veselá 3",
+        "openingHours": {
+            "mon": "09:00-22:00",
+            "tue": "09:00-22:00",
+            "wed": "09:00-23:00",
+            "thu": "09:00-23:00",
+            "fri": "09:00-24:00",
+            "sat": "11:00-23:00"
+        },
+        "tags": "bistro, restaurant, french"
     },
     {
         "name": "Kafec",
@@ -166,6 +199,21 @@
             "sat": "12:00-22:00"
         },
         "tags": "restaurant, arab, vegetarian"
+    },
+    {
+        "name": "Ocean 48 bistro",
+        "slug": "ocean-48-bistro",
+        "url": "http://www.ocean48.cz/Bistro",
+        "contactNumber": "+420 530 504 515",
+        "address": "Palackého třída 60",
+        "openingHours": {
+            "mon": "11:00-20:00",
+            "tue": "11:00-20:00",
+            "wed": "11:00-20:00",
+            "thu": "11:00-20:00",
+            "fri": "11:00-20:00"
+        },
+        "tags": "bistro, fish"
     },
     {
         "name": "Pablo Escobar",
