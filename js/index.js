@@ -4,9 +4,18 @@ function renderIndex() {
     $("#page-placeholder").html(Templates.compileIndexTemplate());
     $("#search").val(Data.searchTerm);
     $("#search").on("input", function() {
-        Data.searchTerm = $("#search").val();
+        Data.searchTerm = $("#search").val().toLowerCase();
         Data.filteredVenues = $.grep(Data.venues, function(element, index) {
-            return element.name.toLowerCase().indexOf(Data.searchTerm.toLowerCase()) >= 0;
+            var match = false;
+            var searchIn = ["name", "tags", "description"];
+            
+            _.each(searchIn, function(elem, index, list) {
+                if (element[elem] && element[elem].toLowerCase().indexOf(Data.searchTerm) >= 0) {
+                    match = true;
+                }
+            });
+            
+            return match;
         });
         renderList();
     });
