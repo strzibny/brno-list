@@ -30,10 +30,10 @@ describe("Opening hours", function() {
         var mondayAfterMidnight = new Date(2014, 10, 18, 1, 0);
         var mondayAfterMidnightTooLate = new Date(2014, 10, 18, 2, 0);
 
-        var isOpen = isOpenAt(openingHours, mondayAfterMidnight);
-        var isOpen2 = isOpenAt(openingHours, mondayAfterMidnightTooLate);
+        var isOpenAfterMidnight = isOpenAt(openingHours, mondayAfterMidnight);
+        var isOpenAfterMidnightTooLate = isOpenAt(openingHours, mondayAfterMidnightTooLate);
 
-        expect(isOpen).toBe(true);
-        expect(isOpen2).toBe(false);
+        expect(isOpenAfterMidnight).toBe(true);
+        expect(isOpenAfterMidnightTooLate).toBe(false);
     });
 });
