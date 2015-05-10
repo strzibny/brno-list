@@ -1,3 +1,5 @@
+// Handlebars template initialization
+
 (function() {
     window.Templates = window.Templates || {};
         

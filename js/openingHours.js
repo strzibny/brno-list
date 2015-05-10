@@ -1,3 +1,5 @@
+// Helper functions for working with opening hours
+
 /**
  * Decides whether current time is within provided opening hours
  * @param {Object} opening hours

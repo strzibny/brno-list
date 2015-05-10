@@ -1,11 +1,12 @@
+// Backbone router initialization
+
 (function() {
     window.App = {
         Router: {}
     };
     
     // define router
-    App.Router = Backbone.Router.extend({
-        
+    App.Router = Backbone.Router.extend({        
         routes: {
             "": "index",
             "detail/:id": "detail"

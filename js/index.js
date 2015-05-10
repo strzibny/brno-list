@@ -1,3 +1,5 @@
+// Index page
+
 var context = {};
 
 function renderIndex() {
@@ -10,7 +12,8 @@ function renderIndex() {
             var searchIn = ["name", "tags", "description"];
             
             _.each(searchIn, function(elem, index, list) {
-                if (element[elem] && element[elem].toLowerCase().indexOf(Data.searchTerm) >= 0) {
+                if (element[elem] && 
+                    element[elem].toLowerCase().indexOf(Data.searchTerm) >= 0) {
                     match = true;
                 }
             });

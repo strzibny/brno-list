@@ -1,3 +1,5 @@
+// Data initialization from data/places.json
+
 (function() {
     window.Data = window.Data || {};
     

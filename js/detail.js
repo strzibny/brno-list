@@ -1,3 +1,5 @@
+// Detail page
+
 function renderDetail(slug) {    
     var venues = $.grep(Data.venues, function(element, index) {
         if (element.slug) {
