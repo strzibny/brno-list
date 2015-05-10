@@ -1,17 +1,62 @@
-body { font-family: 'Open Sans', sans-serif; }
+/* Common */
+body, h1, h2, h3 { 
+    font-family: 'Open Sans', sans-serif;
+}
 
-h1,h2, h3 { font-family: 'Open Sans', sans-serif; }
+/* Header */
+h1 {  
+    padding: 15px 15px 0 15px; 
+    margin-top: 0;
+    border-bottom: 4px solid #006699;
+    color: white;  
+    background: #0099CC;
+}
+h1 a, h1 a:hover {
+    color: white;
+} 
 
-h1 { color: white; padding-left: 15px; background: #0099CC; margin-top: 0; padding-top: 15px; padding-bottom: 8px; border-bottom: 4px solid #006699; }
-h1 a, h1 a:hover { color: white; } 
-h3 a, h3 a:hover { color: #0099CC; height: 50px; display: block; padding-top: 10px;  }
+/* Venue listing */
+h3 a, h3 a:hover { 
+    display: block;
+    height: 50px;
+    padding-top: 10px;
+    color: #0099CC;
+}
 
-#search { display: block; margin-top: 10px; }
+/* Search input */
+#search { 
+    display: block; 
+    margin-top: 10px;
+}
 
-.tags { padding-bottom: 1em; padding-top: 10px; height: 60px; overflow: hidden; margin-bottom: 10px; 
-  padding-right: 12px; }
-.opening-hours td.hhmm { width: 100%; text-align: right; }
-.open, .closed { padding: 4px; padding-left: 6px; padding-right: 6px; display: inline-block; 
-  color: white; float: right; }
-.open { width: 70px; background-color: #339933; border-right: 3px solid #006600; border-bottom: 3px solid #006600; }
-.closed { width: 70px; background-color: red; border-right: 3px solid #990000; border-bottom: 3px solid #990000; }
+/* Tag list */
+.tags { 
+    height: 60px;
+    padding: 10px 12px 1em 0;
+    margin-bottom: 10px;
+    overflow: hidden; 
+}
+
+/* Opening hours table */
+.opening-hours td.hhmm { 
+    width: 100%;
+    text-align: right; 
+}
+
+/* Open/Closed box */
+.open, .closed {
+    width: 70px; 
+    padding: 4px 6px 4px 6px; 
+    display: inline-block; 
+    color: white;
+    float: right; 
+    border-right: 3px solid #006600; 
+    border-bottom: 3px solid #006600;
+}
+.open {  
+    background-color: #339933;
+}
+.closed {
+    background-color: red;
+    border-color: #990000;
+}
