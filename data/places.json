@@ -185,6 +185,22 @@
         "tags": "restaurant, fish, sushi, luxury"
     },
     {
+        "name": "Koloniál",
+        "slug": "kolonial",
+        "url": "http://kolonialbrno.cz/",
+        "contactNumber": "+420 608 384 624",
+        "address": "Gorkého 5",
+        "openingHours": {
+            "mon": "08:00-18:00",
+            "tue": "08:00-18:00",
+            "wed": "08:00-18:00",
+            "thu": "08:00-18:00",
+            "fri": "08:00-18:00",
+            "sat": "09:00-12:00"
+        },
+        "tags": "store, meat, milk, bread"
+    },
+    {
         "name": "Kupé",
         "slug": "kupe",
         "url": "http://www.kupeorient.cz/",
@@ -233,6 +249,22 @@
         "tags": "bar, classic, burger"
     },
     {
+        "name": "Patizon",
+        "slug": "patizon",
+        "url": "https://www.facebook.com/pages/Patizon/216336258530893",
+        "contactNumber": "+420 608 567 144",
+        "address": "Grohova 6",
+        "openingHours": {
+            "mon": "08:00-18:00",
+            "tue": "08:00-18:00",
+            "wed": "08:00-18:00",
+            "thu": "08:00-18:00",
+            "fri": "08:00-18:00",
+            "sat": "09:00-13:00"
+        },
+        "tags": "store, vegetables, fruit, bread"
+    },
+    {
         "name": "Runway",
         "slug": "runway",
         "url": "http://www.restaurant-pavillon.cz/runway.php#runway-bar",
@@ -246,6 +278,22 @@
             "sat": "18:00-02:00"
         },
         "tags": "bar, modern"
+    },
+    {
+        "name": "Sklizeno Josefská",
+        "slug": "sklizeno-josefska",
+        "url": "http://www.sklizeno.cz/josefska",
+        "contactNumber": "+420 530 330 624",
+        "address": "Josefská 14",
+        "openingHours": {
+            "mon": "08:00-20:00",
+            "tue": "08:00-20:00",
+            "wed": "08:00-20:00",
+            "thu": "08:00-20:00",
+            "fri": "08:00-20:00",
+            "sat": "09:00-15:00"
+        },
+        "tags": "store, vegetables, fruit, meat, milk, bread"
     },
     {
         "name": "Super panda circus",
@@ -279,6 +327,23 @@
             "sat": "11:00-23:00",
             "sun": "11:00-23:00"
         },
-        "tags": "restaurant, mediterranean, pasta"
-    }
+        "tags": "restaurant, asian, sushi"
+    },
+    {
+        "name": "U Třech Čertů Dvořákova",
+        "slug": "u-trech-certu-dvorakova",
+        "url": "http://ucertu.cz/dvorakova/",
+        "contactNumber": "+420 542 211 886",
+        "address": "Dvořákova 6/8",
+        "openingHours": {
+            "mon": "11:00–24:00",
+            "tue": "11:00–24:00",
+            "wed": "11:00–24:00",
+            "thu": "11:00–24:00",
+            "fri": "11:00–02:00",
+            "sat": "12:00–24:00",
+            "sun": "12:00–24:00"
+        },
+        "tags": "restaurant, pub, czech, beer"
+    },
 ]
