@@ -22,6 +22,21 @@
         return new Handlebars.SafeString(openingHoursDayTemplate(context));
     });
 
+    Handlebars.registerHelper("listTags", function(tags) {
+        var tagsTemplate = Handlebars.compile($("#tags").html());
+        
+        var context = {};
+        context.tags = [];
+    
+        var tagsToProcess = tags.split(',');
+        
+        _.each(tagsToProcess, function(element, index, list) {
+            context.tags.push(element.trim());
+        });
+        
+        return new Handlebars.SafeString(tagsTemplate(context));
+    });
+
     // register partials
 
     Handlebars.registerPartial("opening-hours", $("#opening-hours-partial").html());

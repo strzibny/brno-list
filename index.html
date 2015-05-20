@@ -14,11 +14,11 @@
     <div id="page-placeholder"></div>
     
     <script id="index-template" type="text/x-handlebars-template">
-        <div class="row">
-          <div class="large-12 columns">
-            <h1>BRNO LIST</h1>
-          </div>
+        
+        <div class="titlebar">
+          <h1>Brno list</h1>
         </div>
+        
     
         <div class="row">
             <div class="large-12 columns">
@@ -30,10 +30,8 @@
     </script>
     
     <script id="detail-template" type="text/x-handlebars-template">
-        <div class="row">
-          <div class="large-12 columns">
-            <h1><a href="#/">< BRNO LIST</a></h1>
-          </div>
+        <div class="titlebar">
+            <h1><a href="#/">< Brno list</a></h1>
         </div>
     
         <div class="row">
@@ -41,7 +39,7 @@
                 <h2>{{name}}</h2>
                 {{isOpenNow openingHours}}
                 <div class="tags">
-                    {{tags}}
+                    {{listTags tags}}
                 </div>
                 <div>
                     {{#if url}}<p><a href="{{url}}">www &#8599;</a> &nbsp;</p>{{/if}}
@@ -60,7 +58,7 @@
                 <h3><a href="#/detail/{{slug}}">{{name}}</a></h3>
                 {{isOpenNow openingHours}}
                 <div class="tags">
-                    {{tags}}
+                    {{listTags tags}}
                 </div>
                 {{openingHoursToday openingHours}}
             </div>
@@ -104,6 +102,12 @@
                 </table>
             </div>
         </div>
+    </script>
+
+    <script id="tags" type="text/x-handlebars-template">
+        {{#each tags}}
+            <span class="tag">{{this}}</span>
+        {{/each}}
     </script>
 
     <script id="opening-hours-today" type="text/x-handlebars-template">
