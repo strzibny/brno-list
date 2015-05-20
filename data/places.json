@@ -84,6 +84,23 @@
         "tags": "bar, spanish, basque, tapas, wine"
     },
     {
+        "name": "East Village Bar & Diner",
+        "slug": "east-village",
+        "url": "http://eastvillage.cz/",
+        "contactNumber": "",
+        "address": "Jaselská 2",
+        "openingHours": {
+            "mon": "09:00-02:00",
+            "tue": "09:00-02:00",
+            "wed": "09:00-02:00",
+            "thu": "09:00-02:00",
+            "fri": "09:00-02:00",
+            "sat": "11:00-02:00",
+            "sun": "11:00-02:00"
+        },
+        "tags": "bar, diner, american"
+    },
+    {
         "name": "Everest",
         "slug": "everest",
         "url": "http://www.everestbrno.cz/",
@@ -118,37 +135,21 @@
         "tags": "bistro, burger, breakfast"
     },
     {
-        "name": "La Bouchée",
-        "slug": "la-bouchee",
-        "url": "http://www.labouchee.cz/",
-        "contactNumber": "+420 542 212 560",
-        "address": "Údolní 33",
+        "name": "Jakoby",
+        "slug": "jakoby",
+        "url": "http://www.restauracejakoby.cz/",
+        "contactNumber": "+420 602 525 629",
+        "address": "Jakubské náměsti 6",
         "openingHours": {
             "mon": "11:00-24:00",
             "tue": "11:00-24:00",
             "wed": "11:00-24:00",
             "thu": "11:00-24:00",
-            "fri": "11:00-24:00",
-            "sat": "11:00-24:00",
-            "sun": "11:00-22:00"
+            "fri": "11:00-01:00",
+            "sat": "12:00-01:00",
+            "sun": "12:00-23:00"
         },
-        "tags": "restaurant, french"
-    },
-    {
-        "name": "laFUFU",
-        "slug": "la-fufu",
-        "url": "http://www.lafufu.cz/",
-        "contactNumber": "+420 608 900 007",
-        "address": "Veselá 3",
-        "openingHours": {
-            "mon": "09:00-22:00",
-            "tue": "09:00-22:00",
-            "wed": "09:00-23:00",
-            "thu": "09:00-23:00",
-            "fri": "09:00-24:00",
-            "sat": "11:00-23:00"
-        },
-        "tags": "bistro, restaurant, french"
+        "tags": "restaurant, bar, wine"
     },
     {
         "name": "Kafec",
@@ -217,6 +218,73 @@
         "tags": "restaurant, arab, vegetarian"
     },
     {
+        "name": "La Bouchée",
+        "slug": "la-bouchee",
+        "url": "http://www.labouchee.cz/",
+        "contactNumber": "+420 542 212 560",
+        "address": "Údolní 33",
+        "openingHours": {
+            "mon": "11:00-24:00",
+            "tue": "11:00-24:00",
+            "wed": "11:00-24:00",
+            "thu": "11:00-24:00",
+            "fri": "11:00-24:00",
+            "sat": "11:00-24:00",
+            "sun": "11:00-22:00"
+        },
+        "tags": "restaurant, french"
+    },
+    {
+        "name": "laFUFU",
+        "slug": "la-fufu",
+        "url": "http://www.lafufu.cz/",
+        "contactNumber": "+420 608 900 007",
+        "address": "Veselá 3",
+        "openingHours": {
+            "mon": "09:00-22:00",
+            "tue": "09:00-22:00",
+            "wed": "09:00-23:00",
+            "thu": "09:00-23:00",
+            "fri": "09:00-24:00",
+            "sat": "11:00-23:00"
+        },
+        "tags": "bistro, restaurant, french"
+    },
+    {
+        "name": "Mikrofarma",
+        "slug": "mikrofarma",
+        "url": "http://www.mikrofarma.cz/",
+        "description": "Bistro open till 22.00.",
+        "contactNumber": "+420 777 100 595",
+        "address": "Moravské náměstí 4",
+        "openingHours": {
+            "mon": "07:30-19:00",
+            "tue": "07:30-19:00",
+            "wed": "07:30-19:00",
+            "thu": "07:30-19:00",
+            "fri": "07:30-19:00",
+            "sat": "07:30-13:00"
+        },
+        "tags": "store, meat, bistro"
+    },
+    {
+        "name": "Na stojáka Jakubák",
+        "slug": "na-stojaka-jakubak",
+        "url": "http://www.vycepnastojaka.cz",
+        "contactNumber": "+420 702 202 048",
+        "address": "Běhounská 16",
+        "openingHours": {
+            "mon": "12:00-24:00",
+            "tue": "12:00-24:00",
+            "wed": "12:00-24:00",
+            "thu": "12:00-24:00",
+            "fri": "12:00-24:00",
+            "sat": "17:00-24:00",
+            "sun": "17:00-24:00"
+        },
+        "tags": "beer"
+    },
+    {
         "name": "Ocean 48 bistro",
         "slug": "ocean-48-bistro",
         "url": "http://www.ocean48.cz/Bistro",
@@ -230,6 +298,23 @@
             "fri": "11:00-20:00"
         },
         "tags": "bistro, fish"
+    },
+    {
+        "name": "Ocean 48 Letmo",
+        "slug": "ocean-48-letmo",
+        "url": "http://www.ocean48.cz/Obchod/Prodejny/oc-letmo",
+        "contactNumber": "+420 530 504 514",
+        "address": "Nádražní 2a",
+        "openingHours": {
+            "mon": "09:00-20:00",
+            "tue": "09:00-20:00",
+            "wed": "09:00-20:00",
+            "thu": "09:00-20:00",
+            "fri": "09:00-20:00",
+            "sat": "09:00-20:00",
+            "sun": "10:00-18:00"
+        },
+        "tags": "store, fish"
     },
     {
         "name": "Pablo Escobar",
@@ -263,6 +348,22 @@
             "sat": "09:00-13:00"
         },
         "tags": "store, vegetables, fruit, bread"
+    },
+    {
+        "name": "Pivní burza",
+        "slug": "pivni-burza",
+        "url": "http://www.pivniburza.cz/",
+        "contactNumber": "+420 776 668 738",
+        "address": "Veveří 52/21",
+        "openingHours": {
+            "mon": "15:00-01:00",
+            "tue": "15:00-01:00",
+            "wed": "15:00-01:00",
+            "thu": "15:00-01:00",
+            "fri": "15:00-01:00",
+            "sat": "15:00-01:00"
+        },
+        "tags": "beer"
     },
     {
         "name": "Runway",
@@ -345,5 +446,22 @@
             "sun": "12:00–24:00"
         },
         "tags": "restaurant, pub, czech, beer"
+    },
+    {
+        "name": "Wang Running Sushi",
+        "slug": "wang-sushi",
+        "url": "http://www.sushivbrne.cz/",
+        "contactNumber": "+420 543 210 749",
+        "address": "Jánská 453/9",
+        "openingHours": {
+            "mon": "11:00-23:00",
+            "tue": "11:00-23:00",
+            "wed": "11:00-23:00",
+            "thu": "11:00-23:00",
+            "fri": "11:00-23:00",
+            "sat": "11:00-23:00",
+            "sun": "11:00-23:00"
+        },
+        "tags": "restaurant, chinese, sushi"
     }
 ]
