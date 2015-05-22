@@ -1,11 +1,11 @@
 {
   "name": "brno-list",
-  "version": "0.0.1",
+  "version": "0.9",
   "homepage": "https://github.com/stribny/brno-list",
   "authors": [
     "Petr Stribny <petrstribny@gmail.com>"
   ],
-  "description": "List of go-out places in Brno",
+  "description": "List of good places in Brno",
   "license": "MIT",
   "private": true,
   "ignore": [
