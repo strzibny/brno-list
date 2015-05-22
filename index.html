@@ -45,7 +45,7 @@
                     {{#if description}}<p>{{description}}</p>{{/if}}
                     {{#if url}}<p><a href="{{url}}">www &#8599;</a> &nbsp;</p>{{/if}}
                     {{#if contactNumber}}<p>{{contactNumber}} &nbsp;&nbsp;<a href="tel:{{contactNumber}}">call &#8599;</a></p>{{/if}}
-                    {{#if address}}<p>{{address}} &nbsp;&nbsp;<a href="http://mapy.cz/?q=Brno {{address}}">map &#8599;</a></p>{{/if}}
+                    {{#if address}}<p>{{address}} &nbsp;&nbsp;<a href="geo:0,0?q=Brno {{address}}">map &#8599;</a></p>{{/if}}
                 </div>
                 {{> opening-hours}}
             </div>
