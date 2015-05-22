@@ -1,8 +1,11 @@
 # Brno list
 
-Brno list is a hybrid mobile application that presents an opinionated list of good go-out places in Brno, Czech republic, created as a way to try some new technology.
+Brno list is a hybrid mobile application that presents an opinionated list of good places in Brno, Czech republic. It is designed for locals as well as for tourists as it includes useful information including addresses, telephone numbers and opening hours.
+
+## Technology used
 
 Built with:
+- HTML, CSS, JavaScript
 - [Bower](http://bower.io/)
 - [Gulp](http://gulpjs.com/)
 - [Apache Cordova](https://cordova.apache.org/)
