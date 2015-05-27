@@ -448,6 +448,23 @@
         "tags": "restaurant, pub, czech, beer"
     },
     {
+      "name": "Vinný bar & café U rybníčku",
+      "slug": "vinny-bar-u-rybnicku",
+      "url": "http://vinotekaurybnicku.cz",
+      "contactNumber": "+420 731 600 280",
+      "address": "Štefánikova 19a",
+      "openingHours": {
+        "mon": "13:00–23:00",
+        "tue": "13:00–23:00",
+        "wed": "13:00–23:00",
+        "thu": "13:00–23:00",
+        "fri": "11:00–24:00",
+        "sat": "15:00–24:00",
+        "sun": "15:00–22:00"
+      },
+      "tags": "wine, bar"
+    },
+    {
         "name": "Wang Running Sushi",
         "slug": "wang-sushi",
         "url": "http://www.sushivbrne.cz/",
