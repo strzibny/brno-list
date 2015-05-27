@@ -366,6 +366,22 @@
         "tags": "beer"
     },
     {
+      "name": "Poslední kapka",
+      "slug": "posledni-kapka",
+      "url": "http://vinarna.wix.com/poslednikapka",
+      "contactNumber": "+420 777 979 698",
+      "address": "Pionýrská 13",
+      "openingHours": {
+        "mon": "15:00-23:30",
+        "tue": "15:00-23:30",
+        "wed": "15:00-23:30",
+        "thu": "15:00-23:30",
+        "fri": "15:00-00:00",
+        "sat": "16:00-00:00"
+      },
+      "tags": "wine, bar"
+    },
+    {
         "name": "Runway",
         "slug": "runway",
         "url": "http://www.restaurant-pavillon.cz/runway.php#runway-bar",
